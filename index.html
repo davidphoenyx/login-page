@@ -14,13 +14,20 @@
     <section>
         <div id="login">
             <h1>Login into account now!</h1>
-            <label for="email">
-                <input type="email" name="login-mail" id="login-mail" placeholder="user@exemple.com" required>
+            <label for="login-mail">
+                <input type="email" name="login-mail" id="login-mail" spellcheck="false" autocapitalize="none" autofocus autocomplete="off" placeholder="user@exemple.com" required>
             </label>
-            <label for="password">
+            <label for="login-pass">
                 <input type="password" name="login-pass" id="login-pass" placeholder="password" required>
             </label>
-            <a href="#" class="submit" onclick="login()"><i class="fa-solid fa-right-to-bracket"></i> login</a> <a href="#" class="recover"><i class="fa-solid fa-key"></i> forgot pass</a>
+            <a href="#" class="submit" onclick="login()"><i class="fa-solid fa-right-to-bracket"></i> login</a> <a href="#" class="recover" onclick="recover()"><i class="fa-solid fa-key"></i> forgot pass</a>
+        </div>
+        <div id="recover">
+            <h1>Type your e-mail to recover access</h1>
+            <label for="recover-mail">
+                <input type="email" name="login-mail" id="recovery-mail" spellcheck="false" autocapitalize="none" autofocus autocomplete="off" placeholder="user@exemple.com" required>
+            </label>
+            <a href="#" class="submit" onclick="send()"><i class="fa-solid fa-key"></i> Send</a>
         </div>
     </section>
 </body>
