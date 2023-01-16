@@ -4,51 +4,30 @@ function notification(value) {
 
     switch (value) {
         case 'success':
-            div.style.cssText = 'height: 50px; color: green;'
+            div.style.cssText = 'height: 50px; color: #c7ff2c;'
             div.innerText = 'LOGIN SUCCESSFULLY'
             break
         case 'pass':
-            div.style.cssText = 'height: 50px; color: red;'
+            div.style.cssText = 'height: 50px; color: #f31230;'
             div.innerText = 'FAIL TO LOGIN, WRONG PASS OR E-MAIL'
             break
         case 'mail':
-            div.style.cssText = 'height: 50px; color: red;'
+            div.style.cssText = 'height: 50px; color: #f31230;'
             div.innerText = 'FAIL TO LOGIN, VERIFY YOUR E-MAIL'
             break
         case 'empty':
-            div.style.cssText = 'height: 50px; color: red;'
+            div.style.cssText = 'height: 50px; color: #f31230;'
             div.innerText = 'FAIL TO LOGIN, EMPTY DATA'
             break
         case 'verified':
-            div.style.cssText = 'height: 50px; color: green'
+            div.style.cssText = 'height: 50px; color: #c7ff2c'
             div.innerText = 'E-MAIL TO RECOVERY ACCOUNT WAS SEND'
             break
         default:
-            div.style.cssText = 'height: 50px; color: red;'
+            div.style.cssText = 'height: 50px; color: #f31230;'
             div.innerText = 'FAIL TO LOGIN'
 
     }
-
-    
-    /*if (value1) {
-        div.style.cssText = 'height: 50px; color: green;'
-        div.innerText = 'LOGIN SUCCESSFULLY'
-    } else if (value2 == 'pass') {
-        div.style.cssText = 'height: 50px; color: red;'
-        div.innerText = 'FAIL TO LOGIN, WRONG PASS OR E-MAIL'
-    } else if (value2 == 'mail') {
-        div.style.cssText = 'height: 50px; color: red;'
-        div.innerText = 'FAIL TO LOGIN, VERIFY YOUR E-MAIL'
-    } else if (value2 == 'empty') {
-        div.style.cssText = 'height: 50px; color: red;'
-        div.innerText = 'FAIL TO LOGIN, EMPTY DATA'
-    } else if (value2 == 'verified') {
-        div.style.cssText = 'height: 50px; color: green'
-        div.innerText = 'E-MAIL TO RECOVERY ACCOUNT WAS SEND'
-    } else {
-        div.style.cssText = 'height: 50px; color: red;'
-        div.innerText = 'FAIL TO LOGIN'
-    }*/
 
 }
 
