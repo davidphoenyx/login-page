@@ -13,11 +13,11 @@ function notification(value) {
             break
         case 'mail':
             div.style.cssText = 'height: 50px; color: #f31230;'
-            div.innerText = 'FAIL TO LOGIN, VERIFY YOUR E-MAIL'
+            div.innerText = 'VERIFY YOUR E-MAIL'
             break
         case 'empty':
             div.style.cssText = 'height: 50px; color: #f31230;'
-            div.innerText = 'FAIL TO LOGIN, EMPTY DATA'
+            div.innerText = 'EMPTY DATA'
             break
         case 'verified':
             div.style.cssText = 'height: 50px; color: #c7ff2c'
