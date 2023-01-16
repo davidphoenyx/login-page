@@ -60,7 +60,7 @@ function login() {
         notification('empty')
         setTimeout(closeNotification, 3000)
     } else if (verify(mail)) {
-        if (mail === 'seu@email.com' && pass === 'senha') {
+        if (mail === 'seu@email.com' && pass === '123456') {
             notification('success')
             setTimeout(closeNotification, 3000)
         } else {
